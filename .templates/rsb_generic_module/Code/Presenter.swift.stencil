@@ -2,11 +2,11 @@
 
 import GenericModule
 
-{%align%}final class {{ name | upperFirstLetter }}resenter: Presenter<{%anchor%}{{ name | upperFirstLetter }}State,
-                                                                     {{ name | upperFirstLetter }}ViewController,
-                                                                     {{ name | upperFirstLetter }}ModuleInput,
-                                                                     {{ name | upperFirstLetter }}ModuleOutput,
-                                                                     {{ name | upperFirstLetter }}ModuleDependencies>{%endalign%} {
+{%align%}final class {{ name | upperFirstLetter }}Presenter: Presenter<{%anchor%}{{ name | upperFirstLetter }}State,
+                                                                      {{ name | upperFirstLetter }}ViewController,
+                                                                      {{ name | upperFirstLetter }}ModuleInput,
+                                                                      {{ name | upperFirstLetter }}ModuleOutput,
+                                                                      {{ name | upperFirstLetter }}ModuleDependencies>{%endalign%} {
     //
 }
 
