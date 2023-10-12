@@ -4,4 +4,3 @@ files:
 - template: Code/ViewModel.swift.stencil
 - template: Code/Presenter.swift.stencil
 - template: Code/State.swift.stencil
-  folder: State

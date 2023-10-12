@@ -1,4 +1,0 @@
-files:
-- template: Code/CollectionViewCell.swift.stencil
-- template: Code/CollectionViewCellItem.swift.stencil
-suffix: CollectionViewCell
