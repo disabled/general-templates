@@ -22,12 +22,6 @@ extension {{ name | upperFirstLetter }}Presenter: {{ name | upperFirstLetter }}M
     //
 }
 
-// MARK: - {{ name | upperFirstLetter }}ModuleOutput
-
-extension {{ name | upperFirstLetter }}Presenter: {{ name | upperFirstLetter }}ModuleOutput {
-    //
-}
-
 // MARK: - {{ name | upperFirstLetter }}ViewModelDelegate
 
 extension {{ name | upperFirstLetter }}Presenter: {{ name | upperFirstLetter }}ViewModelDelegate {
