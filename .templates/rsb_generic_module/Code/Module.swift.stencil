@@ -1,9 +1,8 @@
 {% include "header.stencil" %}
 
-import Foundation
 import GenericModule
 
-@objc protocol {{ name | upperFirstLetter }}ModuleInput {}
+protocol {{ name | upperFirstLetter }}ModuleInput {}
 protocol {{ name | upperFirstLetter }}ModuleOutput {}
 
 typealias {{ name | upperFirstLetter }}ModuleDependencies = Any
