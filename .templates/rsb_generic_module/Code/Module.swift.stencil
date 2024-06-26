@@ -2,8 +2,14 @@
 
 import GenericModule
 
-protocol {{ name | upperFirstLetter }}ModuleInput {}
-protocol {{ name | upperFirstLetter }}ModuleOutput {}
+protocol {{ name | upperFirstLetter }}ModuleInput {
+    var state: {{ name | upperFirstLetter}}State { get }
+    func update(force: Bool, animated: Bool)
+}
+
+protocol {{ name | upperFirstLetter }}ModuleOutput {
+    //
+}
 
 typealias {{ name | upperFirstLetter }}ModuleDependencies = Any
 
