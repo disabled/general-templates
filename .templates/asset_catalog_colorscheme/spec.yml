@@ -1,0 +1,72 @@
+files:
+ - template: Code/Contents.json.stencil
+   name: Contents.json
+ - template: Code/background/background.primary/Contents.json.stencil
+   folder: background/background.primary.colorSet
+   name: Contents.json
+ - template: Code/background/background.secondary/Contents.json.stencil
+   folder: background/background.secondary.colorSet
+   name: Contents.json
+ - template: Code/foreground/foreground.primary/Contents.json.stencil
+   folder: foreground/foreground.primary.colorSet
+   name: Contents.json
+ - template: Code/foreground/foreground.secondary/Contents.json.stencil
+   folder: foreground/foreground.secondary.colorSet
+   name: Contents.json
+ - template: Code/foreground/foreground.tertiary/Contents.json.stencil
+   folder: foreground/foreground.tertiary.colorSet
+   name: Contents.json
+ - template: Code/foreground/foreground.inactive/Contents.json.stencil
+   folder: foreground/foreground.inactive.colorSet
+   name: Contents.json
+ - template: Code/action.generic/action.generic.active/Contents.json.stencil
+   folder: action.generic/action.generic.active.colorSet
+   name: Contents.json
+ - template: Code/action.generic/action.generic.inactive/Contents.json.stencil
+   folder: action.generic/action.generic.inactive.colorSet
+   name: Contents.json
+ - template: Code/action.generic/action.generic.disabled/Contents.json.stencil
+   folder: action.generic/action.generic.disabled.colorSet
+   name: Contents.json
+ - template: Code/action.primary/action.primary.active/Contents.json.stencil
+   folder: action.primary/action.primary.active.colorSet
+   name: Contents.json
+ - template: Code/action.primary/action.primary.inactive/Contents.json.stencil
+   folder: action.primary/action.primary.inactive.colorSet
+   name: Contents.json
+ - template: Code/action.primary/action.primary.disabled/Contents.json.stencil
+   folder: action.primary/action.primary.disabled.colorSet
+   name: Contents.json
+ - template: Code/action.destructive/action.destructive.active/Contents.json.stencil
+   folder: action.destructive/action.destructive.active.colorSet
+   name: Contents.json
+ - template: Code/action.destructive/action.destructive.inactive/Contents.json.stencil
+   folder: action.destructive/action.destructive.inactive.colorSet
+   name: Contents.json
+ - template: Code/action.destructive/action.destructive.disabled/Contents.json.stencil
+   folder: action.destructive/action.destructive.disabled.colorSet
+   name: Contents.json
+ - template: Code/stroke/stroke.primary/Contents.json.stencil
+   folder: stroke/stroke.primary.colorSet
+   name: Contents.json
+ - template: Code/stroke/stroke.secondary/Contents.json.stencil
+   folder: stroke/stroke.secondary.colorSet
+   name: Contents.json
+ - template: Code/stroke/stroke.tertiary/Contents.json.stencil
+   folder: stroke/stroke.tertiary.colorSet
+   name: Contents.json
+ - template: Code/stroke/stroke.inactive/Contents.json.stencil
+   folder: stroke/stroke.inactive.colorSet
+   name: Contents.json
+ - template: Code/gradient/gradient.active.start/Contents.json.stencil
+   folder: gradient/gradient.active.start.colorSet
+   name: Contents.json
+ - template: Code/gradient/gradient.active.end/Contents.json.stencil
+   folder: gradient/gradient.active.end.colorSet
+   name: Contents.json
+ - template: Code/gradient/gradient.inactive.start/Contents.json.stencil
+   folder: gradient/gradient.inactive.start.colorSet
+   name: Contents.json
+ - template: Code/gradient/gradient.inactive.end/Contents.json.stencil
+   folder: gradient/gradient.inactive.end.colorSet
+   name: Contents.json

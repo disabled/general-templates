@@ -5,6 +5,8 @@ outputs:
   path: Classes/Presentation/Modules
 - templateName: rsb_service
   path: Classes/BusinessLogic/Services
+- templateName: asset_catalog_colorscheme
+  path: Resources/Assets.xcassets
 services:
   servicesPath: ./Classes/BusinessLogic/Services/Services.swift
   serviceMarks:
